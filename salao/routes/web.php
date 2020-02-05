@@ -23,3 +23,6 @@ Route::get('/cadCliente', function () {
 Route::get('/cadFuncionario', function () {
     return view('sistema.cadFuncionario');
 });
+Route::get('/ordemServ', function () {
+    return view('sistema.ordemServ');
+});
