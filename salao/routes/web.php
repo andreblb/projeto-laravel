@@ -26,3 +26,6 @@ Route::get('/cadFuncionario', function () {
 Route::get('/ordemServ', function () {
     return view('sistema.ordemServ');
 });
+Route::get('/servicos', function () {
+    return view('sistema.servicos');
+});

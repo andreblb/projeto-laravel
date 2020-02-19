@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-  <title>Ellz's | Painel</title>
+  <title>Ellz's | Painel - Cliente</title>
 
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="{{asset('plugins/fontawesome-free/css/all.min.css')}}">
@@ -289,7 +289,6 @@
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Clientes</li>
             </ol>
           </div>
         </div>
@@ -304,7 +303,7 @@
                 <label for="nome">Nome:</label>
                 <input type="text" class="form-control" id="nome">
               </div>
-              <div class="form-group col-md-6">
+              <div class="form-group col-md-3">
                 <label for="cpf">CPF:</label>
                 <input type="text" class="form-control" id="cpf">
               </div>
@@ -323,7 +322,7 @@
                   <input type="text" class="form-control" id="telefone" placeholder="85+numero">
                 </div>
             </div>
-            <div class="form-group">
+            <div class="form-group col-md-9">
               <label for="inputAddress2">Endereço:</label>
               <input type="text" class="form-control" id="inputAddress2" placeholder="Rua, Av">
             </div>

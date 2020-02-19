@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-  <title>Ellz's | Painel</title>
+  <title>Ellz's | Painel - Funcionário</title>
 
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="{{asset('plugins/fontawesome-free/css/all.min.css')}}">
@@ -262,12 +262,6 @@
                   <i class="far fa-circle nav-icon"></i>
                   <p>Recuperar Senha</p>
                 </a>
-              <li class="nav-item">
-                <a href="pages/examples/blank.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Blank Page</p>
-                </a>
-              </li>
 
             </ul>
           </li>
@@ -289,7 +283,6 @@
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Profissionais</li>
             </ol>
           </div>
         </div>
@@ -304,7 +297,7 @@
                 <label for="nome">Nome:</label>
                 <input type="text" class="form-control" id="nome">
               </div>
-              <div class="form-group col-md-6">
+              <div class="form-group col-md-3">
                 <label for="cpf">CPF:</label>
                 <input type="text" class="form-control" id="cpf">
               </div>
@@ -323,19 +316,25 @@
                   <input type="text" class="form-control" id="telefone" placeholder="85+numero">
                 </div>
               </div>
-            <div class="form-group">
+            <div class="form-group col-md-9">
               <label for="endereco">Endereço:</label>
               <input type="text" class="form-control" id="endereco" placeholder="Rua, Av etc">
             </div>
             
-            <div class="form-group">
+            
+            <div class="form-group col-md-6">
+                  <label for="funcao">Função:</label>
+                  <input type="text" class="form-control" id="funcao" placeholder="funcao">
+            </div>
+            <div class="form-group col-md-6">
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" id="gridCheck">
                 <label class="form-check-label" for="gridCheck">
-                  ativo?
+                    ativo?
                 </label>
               </div>
             </div>
+            
             <button type="submit" class="btn btn-primary">Cadastrar</button>
           </form>
 
