@@ -301,35 +301,35 @@
             <div class="form-row">
               <div class="form-group col-md-6">
                 <label for="nome">Nome:</label>
-                <input type="text" class="form-control" id="nome">
+                <input type="text" class="form-control" id="nome" name="nome">
               </div>
               <div class="form-group col-md-3">
                 <label for="cpf">CPF:</label>
-                <input type="text" class="form-control" id="cpf">
+                <input type="text" class="form-control" id="cpf" name="cpf">
               </div>
             </div>
             <div class="form-row">
               <div class="form-group col-md-3">
                 <label for="dataNasc">Data de Nascimento:</label>
-                <input type="text" class="form-control" id="dataNasc" placeholder="01/01/1979">
+                <input type="text" class="form-control" id="dataNasc" placeholder="01/01/1979" name="dataNasc">
               </div>
               <div class="form-group col-md-3">
                   <label for="email">E-Mail:</label>
-                  <input type="text" class="form-control" id="email" placeholder="meuemail@meuemail.com">
+                  <input type="text" class="form-control" id="email" placeholder="meuemail@meuemail.com" name="email">
                 </div>
               <div class="form-group col-md-3">
                   <label for="telefone">Telefone:</label>
-                  <input type="text" class="form-control" id="telefone" placeholder="85+numero">
+                  <input type="text" class="form-control" id="telefone" placeholder="85+numero" name="telefone">
                 </div>
             </div>
             <div class="form-group col-md-9">
               <label for="inputAddress2">Endereço:</label>
-              <input type="text" class="form-control" id="inputAddress2" placeholder="Rua, Av">
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Rua, Av" name="inputAddress2">
             </div>
             
             <div class="form-group">
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <input class="form-check-input" type="checkbox" id="gridCheck" name="gridCheck">
                 <label class="form-check-label" for="gridCheck">
                   ativo?
                 </label>

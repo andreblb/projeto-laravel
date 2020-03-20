@@ -305,30 +305,30 @@
             <div class="form-row">
               <div class="form-group col-md-3">
                 <label for="dataNasc">Data de Nascimento:</label>
-                <input type="text" class="form-control" id="dataNasc" placeholder="01/01/1979">
+                <input type="text" class="form-control" id="dataNasc" placeholder="01/01/1979" name="dataNasc">
               </div>
               <div class="form-group col-md-3">
                   <label for="email">E-Mail:</label>
-                  <input type="text" class="form-control" id="email" placeholder="meuemail@meuemail.com">
+                  <input type="text" class="form-control" id="email" placeholder="meuemail@meuemail.com" name="email">
                 </div>
               <div class="form-group col-md-3">
                   <label for="telefone">Telefone:</label>
-                  <input type="text" class="form-control" id="telefone" placeholder="85+numero">
+                  <input type="text" class="form-control" id="telefone" placeholder="85+numero" name="telefone">
                 </div>
               </div>
             <div class="form-group col-md-9">
               <label for="endereco">Endereço:</label>
-              <input type="text" class="form-control" id="endereco" placeholder="Rua, Av etc">
+              <input type="text" class="form-control" id="endereco" placeholder="Rua, Av etc" name="endereco">
             </div>
             
             
             <div class="form-group col-md-6">
                   <label for="funcao">Função:</label>
-                  <input type="text" class="form-control" id="funcao" placeholder="funcao">
+                  <input type="text" class="form-control" id="funcao" placeholder="funcao" name="funcao">
             </div>
             <div class="form-group col-md-6">
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <input class="form-check-input" type="checkbox" id="gridCheck" name="gridCheck">
                 <label class="form-check-label" for="gridCheck">
                     ativo?
                 </label>

@@ -302,24 +302,24 @@
   <div class="form-row">
     <div class="form-group col-md-3">
       <label for="codclient">Código do Cliente</label>
-      <input type="number" class="form-control" id="codclient">
+      <input type="text" class="form-control" id="codclient" name="codclient">
     </div>
     <div class="form-group col-md-5">
       <label for="nomeClient">Nome</label>
-      <input type="password" class="form-control" id="nomeClient">
+      <input type="password" class="form-control" id="nomeClient" name="nomeClient">
     </div>
   </div>
   <div  class="form-row">
   <div class="form-group col-md-4">
-    <label for="servicos">Serviços</label>
-    <select id="servicos" class="form-control">
+    <label for="profissionais">Profissionais</label>
+    <select id="profissional" class="form-control" name="profissional">
         <option selected>Choose...</option>
         <option>Escova</option>
     </select>
   </div>
   <div class="form-group col-md-4">
-    <label for="profissional">Profissional</label>
-    <select id="profissional" class="form-control">
+    <label for="servico">Serviço</label>
+    <select id="servico" class="form-control" name="servico">
         <option selected>Choose...</option>
         <option>Elizangela</option>
     </select>
@@ -327,8 +327,8 @@
   </div>
   <div class="form-row">
     <div class="form-group col-md-4">
-      <label for="profissional2">State</label>
-      <select id="profissional2" class="form-control">
+      <label for="profissional2">Profissional 2</label>
+      <select id="profissional2" class="form-control" name="profissional2">
         <option selected>Choose...</option>
         <option>...</option>
       </select>
@@ -336,7 +336,7 @@
   </div>
   <div class="form-group">
     <div class="form-check">
-      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <input class="form-check-input" type="checkbox" id="gridCheck" name="gridCheck">
       <label class="form-check-label" for="gridCheck">
         Gerar Ordem de serviço.
       </label>
