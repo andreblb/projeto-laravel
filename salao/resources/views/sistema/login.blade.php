@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>salaoo | Log in</title>
+  <title>salao | Log in</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -21,14 +21,15 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="../../index2.html"><b>Ellz's</b></a>
+    <a href=""><b>Ellz's</b></a>
   </div>
   <!-- /.login-logo -->
   <div class="card">
     <div class="card-body login-card-body">
-      <p class="login-box-msg">Por favor, Digite os dados de acesso</p>
+      <p class="login-box-msg">Por favor, Digite os dados</p>
 
-      <form action="../../index3.html" method="post">
+      <form action="ClientesController" method="post">
+        @csrf
         <div class="input-group mb-3">
           <input type="email" class="form-control" placeholder="Email">
           <div class="input-group-append">

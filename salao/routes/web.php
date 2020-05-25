@@ -11,21 +11,17 @@
 |
 */
 
-Route::get('/', function () {
-    return view('sistema.login');
-});
+Route::resource('/login', 'UsuariosController');
+
 Route::get('/index', function () {
     return view('sistema.index');
 });
-Route::get('/cadCliente', function () {
-    return view('sistema.cadCliente');
-});
-Route::get('/cadFuncionario', function () {
-    return view('sistema.cadFuncionario');
-});
-Route::get('/ordemServ', function () {
-    return view('sistema.ordemServ');
-});
+Route::resource('/cadCliente', 'ClientesController');
+
+Route::resource('/cadFuncionario', 'PrestadorController');
+
+Route::resource('/ordemServ', 'OrderServController');
+
 Route::get('/servicos', function () {
     return view('sistema.servicos');
 });
