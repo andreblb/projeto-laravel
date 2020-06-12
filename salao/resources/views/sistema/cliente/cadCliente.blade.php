@@ -211,7 +211,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/examples/projects" class="nav-link">
+                <a href="{{action('ServicosController@create')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Ordem de Serviços</p>
                 </a>
